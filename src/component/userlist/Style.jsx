@@ -1,8 +1,9 @@
 import Styled from "@emotion/styled";
-import {Grid, Typography} from "@mui/material";
+import {Typography, Paper} from "@mui/material";
 
-export const StyledCardInfoContainer = Styled(Grid)`
+export const StyledCardInfoContainer = Styled(Paper)`
     border-radius: 10px;
+    height: 100%;
     background: ${(props) => props.backgroundcolor};
     padding: 20px;
 `;
