@@ -8,10 +8,9 @@ import { getSkillValue } from "./Util";
 const UserList = ({ usersList }) => {
   if (usersList.length === 0) {
     return (
-      <Grid container spacing={"20px"}>
+      <Grid container justifyContent={"center"} spacing={"20px"}>
         <img
-          width={"100%"}
-          style={{ aspectRatio: "16/9" }}
+          width={"50%"}
           src={NoImage}
           alt={"No item found"}
         />
